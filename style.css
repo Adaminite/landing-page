@@ -1,0 +1,82 @@
+body{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    margin-left: 0 auto;
+
+    display: flex;
+    gap: 10px;
+}
+
+a, .sec-text{
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.logo, .main-text{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header, .footer{
+    background: #1F2937;
+}
+
+
+.btn, .sign-up{
+    background: #3882F6;
+}
+
+.main-text{
+    font-size: 48px;
+    font-weight: extra-bold;
+    
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading{
+    display: flex;
+}
+
+.info-hdr{
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+}
+
+.quote{
+    background: #E5E7EB;
+}
+
+.qt-text{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
