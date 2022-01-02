@@ -42,7 +42,6 @@ a, .sec-text{
 
 .btn, .sign-up{
     background: #3882F6;
-
 }
 
 .top{
@@ -50,6 +49,19 @@ a, .sec-text{
     font-weight: bold;
 
     border-radius: 10px;
+    border-width: 0;
+    width: 125px;
+    height: 40px;
+
+    color: white;
+}
+
+.bottom{
+    font-weight: bold;
+
+    border-radius: 10px;
+    border-color: white;
+    border-style: solid;
     width: 125px;
     height: 40px;
 
@@ -172,10 +184,35 @@ a, .sec-text{
     color: #1F2937;
 }
 
+
+.sign-up{
+   margin: 100px 300px;  
+   border-radius: 15px;
+
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+
+   padding: 25px 100px;
+
+}
+
+.left-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    color: white;
+}
+
+
+
 .footer{
     display: flex;
     align-items: center;
     justify-content: center;
     padding-top: 20px;
     padding-bottom: 20px;
+
+    color: white;
 }
